@@ -1,8 +1,11 @@
 window.onload = function () {
 	jogador_1 = prompt("Digite o nome do primeiro jogador");
+	idade_jogador_1 = prompt("Digite a idade do primeiro jogador");
 	jogador_2 = prompt("Digite o nome do segundo jogador");
-	document.getElementById("nome_1").innerHTML = "Jogador 1: " + jogador_1;
-	document.getElementById("nome_2").innerHTML = "Jogador 2: " + jogador_2;
+	idade_jogador_2 = prompt("Digite a idade do segundo jogador");
+	
+	document.getElementById("nome_1").innerHTML = "Jogador 1: " + jogador_1 + " / idade : " + idade_jogador_1 + "anos";
+	document.getElementById("nome_2").innerHTML = "Jogador 2: " + jogador_2 + " / idade : " + idade_jogador_2 + "anos";
 }
 
 function start() {
